@@ -1,69 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Grotesk:wght@400;600&display=swap');
+
 body {
-    font-family: system-ui, -apple-system, sans-serif;
-    max-width: 700px;
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+    max-width: 720px;
     margin: 0 auto;
     padding: 20px;
-    background: #0f0f13;
-    color: #e0e0e0;
-    line-height: 1.5;
+    background: #0a0a0f;
+    color: #e0d4ff;
+    line-height: 1.6;
+    background-image: 
+        radial-gradient(circle at 20% 30%, #1a0a2e 0%, transparent 40%),
+        radial-gradient(circle at 80% 70%, #0f1a0a 0%, transparent 40%);
 }
 
 header {
     text-align: center;
-    padding: 30px 15px;
-    background: #1a1a24;
-    border-radius: 12px;
+    padding: 35px 20px;
+    background: linear-gradient(135deg, #1a0a2e, #0f0a1a);
+    border-radius: 16px;
     margin-bottom: 25px;
-    border: 1px solid #2a2a3a;
+    border: 2px solid #7c3aed;
+    box-shadow: 0 0 20px rgba(124, 58, 237, 0.4);
 }
 
 h1 {
-    margin: 0 0 8px 0;
-    color: #7dd3fc;
-    font-size: 1.8rem;
+    margin: 0 0 10px 0;
+    color: #c084fc;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.4rem;
+    text-shadow: 0 0 10px #a855f7;
+}
+
+header p {
+    color: #a78bfa;
+    font-size: 0.95rem;
 }
 
 h2 {
-    color: #a5b4fc;
-    font-size: 1.2rem;
+    color: #4ade80;
+    font-size: 1.15rem;
     margin-top: 0;
+    text-shadow: 0 0 8px rgba(74, 222, 128, 0.5);
 }
 
 section {
-    background: #1a1a24;
-    padding: 18px 20px;
-    margin-bottom: 18px;
-    border-radius: 12px;
-    border: 1px solid #2a2a3a;
+    background: #12091c;
+    padding: 20px 22px;
+    margin-bottom: 20px;
+    border-radius: 14px;
+    border: 1px solid #3b1d6e;
+    box-shadow: 0 0 12px rgba(124, 58, 237, 0.15);
 }
 
 .gif-row {
     display: flex;
-    gap: 12px;
+    gap: 14px;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 15px 0;
+    margin: 18px 0;
 }
 
 .gif {
-    max-width: 180px;
-    border-radius: 8px;
-    border: 2px solid #7c3aed;
+    max-width: 190px;
+    border-radius: 10px;
+    border: 3px solid #a855f7;
+    box-shadow: 0 0 15px rgba(168, 85, 247, 0.5);
 }
 
 .note {
     text-align: center;
-    font-size: 0.9rem;
-    color: #a78bfa;
+    font-size: 0.95rem;
+    color: #f472b6;
+    font-weight: 600;
 }
 
 footer {
     text-align: center;
-    color: #666;
+    color: #6b7280;
     font-size: 0.85rem;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 ul {
-    padding-left: 20px;
+    padding-left: 22px;
+}
+
+li {
+    margin-bottom: 6px;
 }
